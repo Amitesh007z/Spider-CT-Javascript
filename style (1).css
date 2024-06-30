@@ -1,0 +1,64 @@
+#box{
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+    grid-template-rows: 150px 150px 150px;
+    grid-gap: 3px;
+    text-align: center;
+    position: relative;
+   
+    top:90px;
+    right: -500px;
+    overflow-x: hidden;
+    
+    
+    
+    
+}
+.grid{
+    width: 150px;
+    height: 150px;
+    background-color: brown;
+    border: solid black ;
+    cursor: pointer;
+    
+    
+}
+
+
+@media screen and (min-width:350px)and (max-width:600px){
+    .grid img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .grid{
+        width: 80px;
+        height: 80px;
+        background-color: brown;
+        border: solid black ;
+        cursor: pointer;
+        
+        
+    }
+
+    #box{
+        display: grid;
+        grid-template-columns: 80px 80px 80px;
+        grid-template-rows: 80px 80px 80px;
+        grid-gap: 1px;
+        text-align: center;
+        position: relative;
+        left:90px;
+        top:250px;
+        
+        
+        
+    }
+    
+}
+
+
+
+       
+      
+    
